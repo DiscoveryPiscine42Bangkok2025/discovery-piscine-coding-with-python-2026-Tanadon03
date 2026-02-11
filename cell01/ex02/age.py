@@ -1,7 +1,7 @@
 import sys
 
-TaAge = 23
-AsAge = 42
-my_age = str(TaAge + AsAge) + "\n"
+a = 23
+b = 42
+my_age = str(a + b) + "\n"
 
 sys.stdout.buffer.write(my_age.encode())
